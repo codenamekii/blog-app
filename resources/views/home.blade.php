@@ -53,7 +53,7 @@
     <div class="mb-16">
       <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold text-center sm:text-left">Postingan Terbaru</h2>
       <div class="w-full">
-        <div class="grid grid-cols-3 gap-10 w-full ">
+        <div class="grid grid-cols-3 gap-10 w-full">
           @foreach ($featuredPosts as $post)
             <x-posts.post-card :post="$post" class="md:col-span-1 col-span-3" />
           @endforeach
