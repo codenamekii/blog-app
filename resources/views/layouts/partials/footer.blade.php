@@ -1,6 +1,8 @@
-<footer class="text-sm space-x-4 flex items-center border-t border-gray-100 flex-wrap justify-center py-4 ">
-    <a class="text-gray-500 hover:text-yellow-500" href="">About Us</a>
-    <a class="text-gray-500 hover:text-yellow-500" href="">Help</a>
-    <a class="text-gray-500 hover:text-yellow-500" href="">Login</a>
-    <a class="text-gray-500 hover:text-yellow-500" href="">Explore</a>
+<footer class="text-sm flex items-center border-t border-gray-100 justify-center py-4">
+    <p class="text-gray-500">&copy; <span id="year"></span> Made By <a href="http://www.instagram.com/callmefiki">Taufiqurrahman 🐱‍🏍</a></p>
 </footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
