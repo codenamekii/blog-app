@@ -20,7 +20,7 @@
   @livewireStyles
 </head>
 
-<body class="font-sans antialiased bg-gradient-to-r from-cyan-100 to-blue-500 p-8">
+<body class="font-sans antialiased bg-gradient-to-r from-teal-50 to-sky-300 p-8">
   <x-banner />
 
   @include('layouts.partials.header')
